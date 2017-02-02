@@ -1,0 +1,9 @@
+(version 1)
+
+(allow default)
+
+(deny file-read-data
+    (literal "/private/var/tmp/can_w"))
+
+(deny file-write-data
+    (literal "/private/var/tmp/can_r"))
